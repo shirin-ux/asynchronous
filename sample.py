@@ -16,9 +16,9 @@ def f3(my_str1,my_str2):
     print(my_str1+my_str2)
     print("end function f3")
 
-def one_abov_all():
+def synchronous():
     f1(3)
     f2("hello",3)
     f3("hello","goodby")
 
-one_abov_all()
+synchronous()
